@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.player-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.player-name {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.player {
+    flex: 2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.player-score {
+    flex: 1;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.player1 {
+    background-color: #ffcccc;
+}
+
+.player2 {
+    background-color: #ccccff;
+}
+
+.dice-roll {
+    display: flex;
+    justify-content: center;
+}
+
+.dice {
+    font-size: 48px;
+    margin: 0 5px;
+}
